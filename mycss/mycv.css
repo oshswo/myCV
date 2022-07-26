@@ -32,7 +32,7 @@ footer{
 #menulist li{
     width:165px;
     float: left;
-    background-color: gray;
+    background-color: blue;
     list-style-type: none;
     margin: 4px;
     padding:2px;
@@ -41,7 +41,7 @@ footer{
 }
 
 #menulist li a{
-    color: wheat;
+    color: yellow;
     text-decoration: none;
 }
 
@@ -81,7 +81,6 @@ h1, h2, h3 {
 .resumeitem {
     width: 30%;
     float: left;
-    /* background-color: rgb(168, 160, 160); */
     border-radius: 10px;
     padding: 5px;
     margin: 4px;
@@ -90,7 +89,6 @@ h1, h2, h3 {
 .section-heading{
     margin: 0 auto;
     width: 350px;
-    /* outline: dashed 1px black; */
 }
 
 .section-heading h2{
