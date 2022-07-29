@@ -4,15 +4,10 @@ body{
     line-height: 26px;
 }
 
-.container{
-    min-width: 900px;
-    position: relative;
-    overflow: auto;
-}
+
 
 #banner{
     background-image: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
-    background-color: gray;
     padding: 15px;
 }
 
@@ -27,12 +22,13 @@ footer{
     padding: 0px;
     position: relative;
     overflow: auto;
+    text-align: left;
 }
 
 #menulist li{
     width:165px;
     float: left;
-    background-color: blue;
+    background-color: gray;
     list-style-type: none;
     margin: 4px;
     padding:2px;
@@ -41,35 +37,35 @@ footer{
 }
 
 #menulist li a{
-    color: yellow;
+    color: black;
     text-decoration: none;
 }
 
 #menulist li:hover {
-    background-color: black;
+    background-color: orange;
 }
 
 
 h1, h2, h3 {
-    color: rgb(17, 186, 17);
+    color:gray;
+    font-family:Arial;
 }
 
 #servicelist{
    padding: 0;
    position: relative;
    overflow: auto;
+  
 }
 
 .serviceitem{
     width: 30%;
     float: left;
-    background-color: rgb(127, 122, 122);
     list-style-type: none;
     margin: 4px;
     padding: 5px;
     text-align: center;
     border-radius: 10px;
-    height: 250px;
 }
 
 #resumelist{
@@ -79,20 +75,23 @@ h1, h2, h3 {
 }
 
 .resumeitem {
-    width: 30%;
-    float: left;
+    width: 90%;
     border-radius: 10px;
-    padding: 5px;
-    margin: 4px;
 }
 
 .section-heading{
     margin: 0 auto;
-    width: 350px;
+    width: 100%;
 }
 
 .section-heading h2{
-    text-align: center;
+    text-align: left;
+    background-color: lightgray;
+    text-transform:uppercase;
+    font-family:arial;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
 }
 
 #backtotop{
